@@ -1,0 +1,84 @@
+html {
+    width: 100%;
+    background: #E0F7FA; 
+    //font-family: 'HelveticaNeue-Light', Helvetica;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Terminal Dosis', Arial, sans-serif;
+}
+img
+{
+    width: 225px;
+    height: 225px;
+    margin: 45px;
+    border: white 10px solid;
+    box-shadow: 5px 5px 3px #607D8B; 
+    //border-radius: 10px;
+}
+#one
+{
+    color: #1A237E;
+    //font-family: 'HelveticaNeue-Light', Helvetica;
+    font-weight: 600;
+    font-size: 80px;
+    text-align: center;
+}
+#two
+{
+    text-align: center;
+    font-size: 45px;
+    color: #5C6BC0;
+    font-weight: 400;
+}
+table
+{
+    position: relative;
+    left: 110px;
+}
+input[type=checkbox]
+{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 65px;
+    top: -50px;
+}
+figcaption
+{
+    position: relative;
+    left: 110px;
+    top: -20px;
+    color: #000000;
+    font-size: 20px;
+}
+#errorboard
+{
+    height: 500px;
+    width: 500px;
+    font-size: 35px;
+    color: white;
+    background: red;
+}
+#sub
+{
+    position: fixed;
+    right: 3%;
+    top:45%;
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    background:#FF9100;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: 'Terminal Dosis', Arial, sans-serif;
+    font-size: 33px;
+    border-radius: 20px;
+    border: #F57C00 solid 2px;
+    box-shadow: 0px 0px 25px #E65100;
+}
+#sub:hover
+{
+    box-shadow: 0px 0px 15px #E65100;
+    border: #E65100;
+    font-size: 36px;
+}
